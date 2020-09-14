@@ -73,5 +73,5 @@ def register():
         return "not granted"
 
 if __name__ == "__main__":
-    app.run(host='192.168.178.62',port=4997, ssl_context=(r'C:\Users\Bhavya Palaksha\Documents\Automation Systems\Seminar\cert.pem',r'C:\Users\Bhavya Palaksha\Documents\Automation Systems\Seminar\key.pem'))
+    app.run(host='192.168.178.62',port=4997, ssl_context=(r'C:\Users\*******\cert.pem',r'C:\Users\******\key.pem'))
 
