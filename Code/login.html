@@ -1,0 +1,45 @@
+<!-- front end code for login.py -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="static/login.css">
+    <script type="text/javascript">
+        function stopEnterKey(evt) {
+            var evt = (evt) ? evt : ((event) ? event : null);
+            var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+            if ((evt.keyCode == 13) && ((node.type == "text") || (node.type == "password"))) { return false; }
+        }
+        document.onkeypress = stopEnterKey;
+    </script>
+</head>
+<body>
+   <br>
+    <form id="login" method="post" action="" class="login" style="line-height:10px">
+        <h2>MANAGE CARDS</h2>
+        {% if error %}
+        <p class="error">{{ error }}
+        {% endif %}<br><br><br>
+        <label>USERNAME
+        </label><br><br>
+        <input type="text" name="Uname" id="Uname" required>
+        <br><br><br><br>
+        <label>PASSWORD
+        </label><br><br>
+        <input type="Password" name="Pass" id="Pass" required>
+        <br><br><br><br>
+        <label>CARD NUMBER
+        </label><br><br>
+        <input type="text" name="card" id="card" required>
+        <br><br><br><br>
+        <label>DOOR
+        </label><br><br>
+        <input type="text" name="door" id="door" required>
+        <br><br><br><br>
+        <input type="submit" name="action" id="insert" value="Insert">
+        <input type="submit" name="action" id="delete" value="Delete">
+        <br><br>
+    </form>
+</body>
+</html>
+

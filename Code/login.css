@@ -1,0 +1,84 @@
+/* css for login page */
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#333333;
+    font-family: 'Trebuchet MS';
+}
+.login{
+        width: 280px;
+        height: 370px;
+        overflow: hidden;
+        margin: auto;
+        padding: 80px;
+        background: #1B1B1B;
+}
+.error{
+        color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 23px;
+    margin-top: 0px;
+}
+label{
+    color: #666666;
+    font-size: 15px;
+}
+#Uname{
+    width: 270px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    background: #666666;
+}
+#Pass{
+    width: 270px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    background: #666666;
+}
+#card{
+    width: 270px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    background: #666666;
+}
+#door{
+    width: 270px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    background: #666666;
+}
+#insert{
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    background: #4d79ff;
+    color: white;
+}
+#delete{
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    background: #4d79ff;
+    color: white;
+    float:right;
+}
+br {
+   line-height:5px;
+}
